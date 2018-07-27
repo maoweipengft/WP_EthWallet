@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAAF4079210B060F00065783 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAF4078210B060F00065783 /* AppDelegate.m */; };
+		EAAF407C210B060F00065783 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAF407B210B060F00065783 /* ViewController.m */; };
+		EAAF407F210B060F00065783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAF407D210B060F00065783 /* Main.storyboard */; };
+		EAAF4081210B061100065783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAF4080210B061100065783 /* Assets.xcassets */; };
+		EAAF4084210B061100065783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAF4082210B061100065783 /* LaunchScreen.storyboard */; };
+		EAAF4087210B061100065783 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAF4086210B061100065783 /* main.m */; };
+		EAAF4091210B061100065783 /* EthersWallet_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAF4090210B061100065783 /* EthersWallet_iosTests.m */; };
+		EAAF409C210B061100065783 /* EthersWallet_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAF409B210B061100065783 /* EthersWallet_iosUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAAF408D210B061100065783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAAF406C210B060F00065783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAF4073210B060F00065783;
+			remoteInfo = "EthersWallet-ios";
+		};
+		EAAF4098210B061100065783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAAF406C210B060F00065783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAF4073210B060F00065783;
+			remoteInfo = "EthersWallet-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAAF4074210B060F00065783 /* EthersWallet-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EthersWallet-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAF4077210B060F00065783 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAAF4078210B060F00065783 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAAF407A210B060F00065783 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAAF407B210B060F00065783 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAAF407E210B060F00065783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAAF4080210B061100065783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAAF4083210B061100065783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAAF4085210B061100065783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAF4086210B061100065783 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAAF408C210B061100065783 /* EthersWallet-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EthersWallet-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAF4090210B061100065783 /* EthersWallet_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EthersWallet_iosTests.m; sourceTree = "<group>"; };
+		EAAF4092210B061100065783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAF4097210B061100065783 /* EthersWallet-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EthersWallet-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAF409B210B061100065783 /* EthersWallet_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EthersWallet_iosUITests.m; sourceTree = "<group>"; };
+		EAAF409D210B061100065783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAAF4071210B060F00065783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAF4089210B061100065783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAF4094210B061100065783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAAF406B210B060F00065783 = {
+			isa = PBXGroup;
+			children = (
+				EAAF4076210B060F00065783 /* EthersWallet-ios */,
+				EAAF408F210B061100065783 /* EthersWallet-iosTests */,
+				EAAF409A210B061100065783 /* EthersWallet-iosUITests */,
+				EAAF4075210B060F00065783 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAAF4075210B060F00065783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAAF4074210B060F00065783 /* EthersWallet-ios.app */,
+				EAAF408C210B061100065783 /* EthersWallet-iosTests.xctest */,
+				EAAF4097210B061100065783 /* EthersWallet-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAAF4076210B060F00065783 /* EthersWallet-ios */ = {
+			isa = PBXGroup;
+			children = (
+				EAAF4077210B060F00065783 /* AppDelegate.h */,
+				EAAF4078210B060F00065783 /* AppDelegate.m */,
+				EAAF407A210B060F00065783 /* ViewController.h */,
+				EAAF407B210B060F00065783 /* ViewController.m */,
+				EAAF407D210B060F00065783 /* Main.storyboard */,
+				EAAF4080210B061100065783 /* Assets.xcassets */,
+				EAAF4082210B061100065783 /* LaunchScreen.storyboard */,
+				EAAF4085210B061100065783 /* Info.plist */,
+				EAAF4086210B061100065783 /* main.m */,
+			);
+			path = "EthersWallet-ios";
+			sourceTree = "<group>";
+		};
+		EAAF408F210B061100065783 /* EthersWallet-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAAF4090210B061100065783 /* EthersWallet_iosTests.m */,
+				EAAF4092210B061100065783 /* Info.plist */,
+			);
+			path = "EthersWallet-iosTests";
+			sourceTree = "<group>";
+		};
+		EAAF409A210B061100065783 /* EthersWallet-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAAF409B210B061100065783 /* EthersWallet_iosUITests.m */,
+				EAAF409D210B061100065783 /* Info.plist */,
+			);
+			path = "EthersWallet-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAAF4073210B060F00065783 /* EthersWallet-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAF40A0210B061100065783 /* Build configuration list for PBXNativeTarget "EthersWallet-ios" */;
+			buildPhases = (
+				EAAF4070210B060F00065783 /* Sources */,
+				EAAF4071210B060F00065783 /* Frameworks */,
+				EAAF4072210B060F00065783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EthersWallet-ios";
+			productName = "EthersWallet-ios";
+			productReference = EAAF4074210B060F00065783 /* EthersWallet-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAAF408B210B061100065783 /* EthersWallet-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAF40A3210B061100065783 /* Build configuration list for PBXNativeTarget "EthersWallet-iosTests" */;
+			buildPhases = (
+				EAAF4088210B061100065783 /* Sources */,
+				EAAF4089210B061100065783 /* Frameworks */,
+				EAAF408A210B061100065783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAAF408E210B061100065783 /* PBXTargetDependency */,
+			);
+			name = "EthersWallet-iosTests";
+			productName = "EthersWallet-iosTests";
+			productReference = EAAF408C210B061100065783 /* EthersWallet-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAAF4096210B061100065783 /* EthersWallet-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAF40A6210B061100065783 /* Build configuration list for PBXNativeTarget "EthersWallet-iosUITests" */;
+			buildPhases = (
+				EAAF4093210B061100065783 /* Sources */,
+				EAAF4094210B061100065783 /* Frameworks */,
+				EAAF4095210B061100065783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAAF4099210B061100065783 /* PBXTargetDependency */,
+			);
+			name = "EthersWallet-iosUITests";
+			productName = "EthersWallet-iosUITests";
+			productReference = EAAF4097210B061100065783 /* EthersWallet-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAAF406C210B060F00065783 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = weipeng.mao;
+				TargetAttributes = {
+					EAAF4073210B060F00065783 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EAAF408B210B061100065783 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EAAF4073210B060F00065783;
+					};
+					EAAF4096210B061100065783 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EAAF4073210B060F00065783;
+					};
+				};
+			};
+			buildConfigurationList = EAAF406F210B060F00065783 /* Build configuration list for PBXProject "EthersWallet-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAAF406B210B060F00065783;
+			productRefGroup = EAAF4075210B060F00065783 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAF4073210B060F00065783 /* EthersWallet-ios */,
+				EAAF408B210B061100065783 /* EthersWallet-iosTests */,
+				EAAF4096210B061100065783 /* EthersWallet-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAAF4072210B060F00065783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAF4084210B061100065783 /* LaunchScreen.storyboard in Resources */,
+				EAAF4081210B061100065783 /* Assets.xcassets in Resources */,
+				EAAF407F210B060F00065783 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAF408A210B061100065783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAF4095210B061100065783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAAF4070210B060F00065783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAF407C210B060F00065783 /* ViewController.m in Sources */,
+				EAAF4087210B061100065783 /* main.m in Sources */,
+				EAAF4079210B060F00065783 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAF4088210B061100065783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAF4091210B061100065783 /* EthersWallet_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAF4093210B061100065783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAF409C210B061100065783 /* EthersWallet_iosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAAF408E210B061100065783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAAF4073210B060F00065783 /* EthersWallet-ios */;
+			targetProxy = EAAF408D210B061100065783 /* PBXContainerItemProxy */;
+		};
+		EAAF4099210B061100065783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAAF4073210B060F00065783 /* EthersWallet-ios */;
+			targetProxy = EAAF4098210B061100065783 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAAF407D210B060F00065783 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAAF407E210B060F00065783 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAAF4082210B061100065783 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAAF4083210B061100065783 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAAF409E210B061100065783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAAF409F210B061100065783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAAF40A1210B061100065783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "EthersWallet-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com..EthersWallet-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAAF40A2210B061100065783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "EthersWallet-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com..EthersWallet-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAAF40A4210B061100065783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "EthersWallet-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com..EthersWallet-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EthersWallet-ios.app/EthersWallet-ios";
+			};
+			name = Debug;
+		};
+		EAAF40A5210B061100065783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "EthersWallet-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com..EthersWallet-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EthersWallet-ios.app/EthersWallet-ios";
+			};
+			name = Release;
+		};
+		EAAF40A7210B061100065783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "EthersWallet-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com..EthersWallet-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EthersWallet-ios";
+			};
+			name = Debug;
+		};
+		EAAF40A8210B061100065783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "EthersWallet-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com..EthersWallet-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EthersWallet-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAAF406F210B060F00065783 /* Build configuration list for PBXProject "EthersWallet-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAF409E210B061100065783 /* Debug */,
+				EAAF409F210B061100065783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAAF40A0210B061100065783 /* Build configuration list for PBXNativeTarget "EthersWallet-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAF40A1210B061100065783 /* Debug */,
+				EAAF40A2210B061100065783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAAF40A3210B061100065783 /* Build configuration list for PBXNativeTarget "EthersWallet-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAF40A4210B061100065783 /* Debug */,
+				EAAF40A5210B061100065783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAAF40A6210B061100065783 /* Build configuration list for PBXNativeTarget "EthersWallet-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAF40A7210B061100065783 /* Debug */,
+				EAAF40A8210B061100065783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAAF406C210B060F00065783 /* Project object */;
+}
