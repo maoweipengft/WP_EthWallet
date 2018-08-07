@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreateWalletViewController">
+            <connections>
+                <outlet property="CreateButton" destination="9Fd-VV-Fqu" id="Tm2-bH-50L"/>
+                <outlet property="LevelLabel" destination="42W-2h-DVK" id="HmR-dB-l2d"/>
+                <outlet property="PassWordtextField" destination="j5j-5h-ueW" id="mkh-TP-Als"/>
+                <outlet property="PasswordLevelLabel" destination="73m-pJ-IGy" id="1PB-LJ-XnW"/>
+                <outlet property="VerifyPassWordtextField" destination="tWm-Bt-TMZ" id="HOk-1G-tgs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="j5j-5h-ueW" customClass="MyTextField">
+                    <rect key="frame" x="15" y="50" width="345" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="afG-NG-skw"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" textContentType="password"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="GRB-c9-oJx"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="tWm-Bt-TMZ" customClass="MyTextField">
+                    <rect key="frame" x="15" y="115" width="345" height="45"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" textContentType="password"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="TaR-EO-ieT"/>
+                    </connections>
+                </textField>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="密码等级:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="73m-pJ-IGy">
+                    <rect key="frame" x="15" y="170" width="65.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="低" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42W-2h-DVK">
+                    <rect key="frame" x="85.5" y="170" width="15.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Fd-VV-Fqu">
+                    <rect key="frame" x="152" y="210" width="70" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="创建钱包"/>
+                    <connections>
+                        <action selector="ClickCreateWallet:" destination="-1" eventType="touchUpInside" id="Hlz-Vv-N0N"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="73m-pJ-IGy" firstAttribute="leading" secondItem="tWm-Bt-TMZ" secondAttribute="leading" id="EDb-rH-kyY"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="j5j-5h-ueW" secondAttribute="trailing" constant="15" id="EcI-mW-gsB"/>
+                <constraint firstItem="j5j-5h-ueW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="KCK-VC-0ea"/>
+                <constraint firstItem="42W-2h-DVK" firstAttribute="centerY" secondItem="73m-pJ-IGy" secondAttribute="centerY" id="MPR-Af-kTr"/>
+                <constraint firstItem="tWm-Bt-TMZ" firstAttribute="height" secondItem="j5j-5h-ueW" secondAttribute="height" id="Mor-xC-Mnq"/>
+                <constraint firstItem="73m-pJ-IGy" firstAttribute="top" secondItem="tWm-Bt-TMZ" secondAttribute="bottom" constant="10" id="Vrf-XI-1ui"/>
+                <constraint firstItem="j5j-5h-ueW" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="30" id="YzR-Ff-qnA"/>
+                <constraint firstItem="tWm-Bt-TMZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Zpa-Qq-e20"/>
+                <constraint firstItem="j5j-5h-ueW" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="15" id="ct5-J1-pc0"/>
+                <constraint firstItem="tWm-Bt-TMZ" firstAttribute="width" secondItem="j5j-5h-ueW" secondAttribute="width" id="dFc-ce-0Nf"/>
+                <constraint firstItem="9Fd-VV-Fqu" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fKN-0a-AcK"/>
+                <constraint firstItem="9Fd-VV-Fqu" firstAttribute="top" secondItem="tWm-Bt-TMZ" secondAttribute="bottom" constant="50" id="hg7-Ye-Uki"/>
+                <constraint firstItem="tWm-Bt-TMZ" firstAttribute="top" secondItem="j5j-5h-ueW" secondAttribute="bottom" constant="20" id="j0Q-dT-WAU"/>
+                <constraint firstItem="j5j-5h-ueW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xtv-gx-16K"/>
+                <constraint firstItem="42W-2h-DVK" firstAttribute="leading" secondItem="73m-pJ-IGy" secondAttribute="trailing" constant="5" id="zT5-Qa-75j"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>

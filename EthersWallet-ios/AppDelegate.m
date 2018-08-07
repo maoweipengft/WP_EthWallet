@@ -7,7 +7,13 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
+#import "NotWalletViewController.h"
+#import "WalletNavigationController.h"
+#import "WHC_ModelSqlite.h"
+#import "AccountModel.h"
+#import "KeychainItemWrapper.h"
+#import "HomeViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +22,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    HomeViewController *vc = [[HomeViewController alloc]init];
+    WalletNavigationController *rootNC = [[WalletNavigationController alloc]initWithRootViewController:vc];
+    
+    self.window=[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window setRootViewController:rootNC];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -7,6 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA2BF3FF2113EEB600AFB2F6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2BF3FC2113EEB600AFB2F6 /* Security.framework */; };
+		EA2BF4022113EF4900AFB2F6 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BF4012113EF4900AFB2F6 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EA2BF41A2113F89F00AFB2F6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA2BF4042113F89F00AFB2F6 /* Info.plist */; };
+		EA2BF41B2113F89F00AFB2F6 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BF4072113F89F00AFB2F6 /* MJExtensionConst.m */; };
+		EA2BF41C2113F89F00AFB2F6 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BF4092113F89F00AFB2F6 /* MJFoundation.m */; };
+		EA2BF41D2113F89F00AFB2F6 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BF40B2113F89F00AFB2F6 /* MJProperty.m */; };
+		EA2BF41E2113F89F00AFB2F6 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BF40D2113F89F00AFB2F6 /* MJPropertyKey.m */; };
+		EA2BF41F2113F89F00AFB2F6 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BF40F2113F89F00AFB2F6 /* MJPropertyType.m */; };
+		EA2BF4202113F89F00AFB2F6 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BF4112113F89F00AFB2F6 /* NSObject+MJClass.m */; };
+		EA2BF4212113F89F00AFB2F6 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BF4132113F89F00AFB2F6 /* NSObject+MJCoding.m */; };
+		EA2BF4222113F89F00AFB2F6 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BF4152113F89F00AFB2F6 /* NSObject+MJKeyValue.m */; };
+		EA2BF4232113F89F00AFB2F6 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BF4172113F89F00AFB2F6 /* NSObject+MJProperty.m */; };
+		EA2BF4242113F89F00AFB2F6 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BF4192113F89F00AFB2F6 /* NSString+MJExtension.m */; };
+		EA2BF42C2113F9AF00AFB2F6 /* WHC_ModelSqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BF42B2113F9AF00AFB2F6 /* WHC_ModelSqlite.m */; };
+		EA2BF42F211405DC00AFB2F6 /* AccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BF42E211405DC00AFB2F6 /* AccountModel.m */; };
+		EA2BF432211406FB00AFB2F6 /* AddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BF431211406FB00AFB2F6 /* AddressModel.m */; };
+		EA2BF43621142D2800AFB2F6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BF43521142D2800AFB2F6 /* HomeViewController.m */; };
+		EA2BF43B2114578A00AFB2F6 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BF4392114578A00AFB2F6 /* HomeCell.m */; };
+		EA2BF43C2114578A00AFB2F6 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2BF43A2114578A00AFB2F6 /* HomeCell.xib */; };
+		EA2BF44321145DB700AFB2F6 /* WalletDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2BF44121145DB700AFB2F6 /* WalletDetailsViewController.m */; };
+		EA2BF44421145DB700AFB2F6 /* WalletDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2BF44221145DB700AFB2F6 /* WalletDetailsViewController.xib */; };
+		EA5C4189210EF10900A61E3D /* CreateWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5C4187210EF10900A61E3D /* CreateWalletViewController.m */; };
+		EA5C418A210EF10900A61E3D /* CreateWalletViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA5C4188210EF10900A61E3D /* CreateWalletViewController.xib */; };
+		EA5C418D210EF2F100A61E3D /* UINavigationBar+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5C418C210EF2F100A61E3D /* UINavigationBar+BackgroundColor.m */; };
+		EA5C4191210EF63000A61E3D /* WalletNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5C4190210EF63000A61E3D /* WalletNavigationController.m */; };
+		EA5C4195210EFA7200A61E3D /* MyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5C4194210EFA7200A61E3D /* MyTextField.m */; };
+		EA5C41A2210F0E3B00A61E3D /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5C4199210F0E3B00A61E3D /* SVIndefiniteAnimatedView.m */; };
+		EA5C41A3210F0E3B00A61E3D /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5C419B210F0E3B00A61E3D /* SVProgressAnimatedView.m */; };
+		EA5C41A4210F0E3B00A61E3D /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA5C419D210F0E3B00A61E3D /* SVProgressHUD.bundle */; };
+		EA5C41A5210F0E3B00A61E3D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5C419F210F0E3B00A61E3D /* SVProgressHUD.m */; };
+		EA5C41A6210F0E3B00A61E3D /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5C41A1210F0E3B00A61E3D /* SVRadialGradientLayer.m */; };
+		EA74A48F210EE2B600AE1CFC /* WalletManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA74A48E210EE2B600AE1CFC /* WalletManager.m */; };
+		EA74A49D210EEEE200AE1CFC /* NotWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA74A49B210EEEE200AE1CFC /* NotWalletViewController.m */; };
+		EA74A49E210EEEE200AE1CFC /* NotWalletViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA74A49C210EEEE200AE1CFC /* NotWalletViewController.xib */; };
 		EAAF4079210B060F00065783 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAF4078210B060F00065783 /* AppDelegate.m */; };
 		EAAF407C210B060F00065783 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAF407B210B060F00065783 /* ViewController.m */; };
 		EAAF407F210B060F00065783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAF407D210B060F00065783 /* Main.storyboard */; };
@@ -15,6 +49,27 @@
 		EAAF4087210B061100065783 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAF4086210B061100065783 /* main.m */; };
 		EAAF4091210B061100065783 /* EthersWallet_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAF4090210B061100065783 /* EthersWallet_iosTests.m */; };
 		EAAF409C210B061100065783 /* EthersWallet_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAF409B210B061100065783 /* EthersWallet_iosUITests.m */; };
+		EAAF40B3210B067C00065783 /* ethers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAAF40AF210B066500065783 /* ethers.framework */; };
+		EAAF40C5210B3DF800065783 /* NSString+judge.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAF40C4210B3DF800065783 /* NSString+judge.m */; };
+		EAD5A2C2211937BB00F5D50F /* HasKeyStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5A2C0211937BB00F5D50F /* HasKeyStoreViewController.m */; };
+		EAD5A2C3211937BB00F5D50F /* HasKeyStoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD5A2C1211937BB00F5D50F /* HasKeyStoreViewController.xib */; };
+		EAD5A2C82119441200F5D50F /* HHShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5A2C72119441200F5D50F /* HHShowView.m */; };
+		EAD5A2E62119454F00F5D50F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EAD5A2CA2119454F00F5D50F /* LICENSE */; };
+		EAD5A2E72119454F00F5D50F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5A2CD2119454F00F5D50F /* MASCompositeConstraint.m */; };
+		EAD5A2E82119454F00F5D50F /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5A2D02119454F00F5D50F /* MASConstraint.m */; };
+		EAD5A2E92119454F00F5D50F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5A2D22119454F00F5D50F /* MASConstraintMaker.m */; };
+		EAD5A2EA2119454F00F5D50F /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5A2D42119454F00F5D50F /* MASLayoutConstraint.m */; };
+		EAD5A2EB2119454F00F5D50F /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5A2D82119454F00F5D50F /* MASViewAttribute.m */; };
+		EAD5A2EC2119454F00F5D50F /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5A2DA2119454F00F5D50F /* MASViewConstraint.m */; };
+		EAD5A2ED2119454F00F5D50F /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5A2DC2119454F00F5D50F /* NSArray+MASAdditions.m */; };
+		EAD5A2EE2119454F00F5D50F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5A2DF2119454F00F5D50F /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		EAD5A2EF2119454F00F5D50F /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5A2E12119454F00F5D50F /* View+MASAdditions.m */; };
+		EAD5A2F02119454F00F5D50F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5A2E42119454F00F5D50F /* ViewController+MASAdditions.m */; };
+		EAD5A2F12119454F00F5D50F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EAD5A2E52119454F00F5D50F /* README.md */; };
+		EAD5A2F421194B7D00F5D50F /* SimpleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5A2F321194B7D00F5D50F /* SimpleManager.m */; };
+		EAD5A2F821196E0300F5D50F /* Setting ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5A2F721196E0300F5D50F /* Setting ViewController.m */; };
+		EAD5A2FC211982E700F5D50F /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5A2FB211982E700F5D50F /* TableViewCell.m */; };
+		EAD5A3042119870600F5D50F /* RestoreWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5A3032119870600F5D50F /* RestoreWalletViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +87,87 @@
 			remoteGlobalIDString = EAAF4073210B060F00065783;
 			remoteInfo = "EthersWallet-ios";
 		};
+		EAAF40AE210B066500065783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAAF40A9210B066500065783 /* ethers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2317E631E3191AC00DBE3E4;
+			remoteInfo = ethers;
+		};
+		EAAF40B0210B066500065783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAAF40A9210B066500065783 /* ethers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2317E6C1E3191AC00DBE3E4;
+			remoteInfo = ethersTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA2BF3FC2113EEB600AFB2F6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EA2BF4002113EF4900AFB2F6 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		EA2BF4012113EF4900AFB2F6 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		EA2BF4042113F89F00AFB2F6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA2BF4052113F89F00AFB2F6 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		EA2BF4062113F89F00AFB2F6 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		EA2BF4072113F89F00AFB2F6 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		EA2BF4082113F89F00AFB2F6 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		EA2BF4092113F89F00AFB2F6 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		EA2BF40A2113F89F00AFB2F6 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		EA2BF40B2113F89F00AFB2F6 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		EA2BF40C2113F89F00AFB2F6 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		EA2BF40D2113F89F00AFB2F6 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		EA2BF40E2113F89F00AFB2F6 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		EA2BF40F2113F89F00AFB2F6 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		EA2BF4102113F89F00AFB2F6 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		EA2BF4112113F89F00AFB2F6 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		EA2BF4122113F89F00AFB2F6 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		EA2BF4132113F89F00AFB2F6 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		EA2BF4142113F89F00AFB2F6 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		EA2BF4152113F89F00AFB2F6 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		EA2BF4162113F89F00AFB2F6 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		EA2BF4172113F89F00AFB2F6 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		EA2BF4182113F89F00AFB2F6 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		EA2BF4192113F89F00AFB2F6 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		EA2BF42A2113F9AF00AFB2F6 /* WHC_ModelSqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_ModelSqlite.h; sourceTree = "<group>"; };
+		EA2BF42B2113F9AF00AFB2F6 /* WHC_ModelSqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_ModelSqlite.m; sourceTree = "<group>"; };
+		EA2BF42D211405DC00AFB2F6 /* AccountModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountModel.h; sourceTree = "<group>"; };
+		EA2BF42E211405DC00AFB2F6 /* AccountModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountModel.m; sourceTree = "<group>"; };
+		EA2BF430211406FB00AFB2F6 /* AddressModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressModel.h; sourceTree = "<group>"; };
+		EA2BF431211406FB00AFB2F6 /* AddressModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressModel.m; sourceTree = "<group>"; };
+		EA2BF433211426AB00AFB2F6 /* EthersWallet-ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "EthersWallet-ios.entitlements"; sourceTree = "<group>"; };
+		EA2BF43421142D2800AFB2F6 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EA2BF43521142D2800AFB2F6 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		EA2BF4382114578A00AFB2F6 /* HomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		EA2BF4392114578A00AFB2F6 /* HomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		EA2BF43A2114578A00AFB2F6 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		EA2BF44021145DB700AFB2F6 /* WalletDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalletDetailsViewController.h; sourceTree = "<group>"; };
+		EA2BF44121145DB700AFB2F6 /* WalletDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalletDetailsViewController.m; sourceTree = "<group>"; };
+		EA2BF44221145DB700AFB2F6 /* WalletDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalletDetailsViewController.xib; sourceTree = "<group>"; };
+		EA5C4186210EF10900A61E3D /* CreateWalletViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateWalletViewController.h; sourceTree = "<group>"; };
+		EA5C4187210EF10900A61E3D /* CreateWalletViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateWalletViewController.m; sourceTree = "<group>"; };
+		EA5C4188210EF10900A61E3D /* CreateWalletViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateWalletViewController.xib; sourceTree = "<group>"; };
+		EA5C418B210EF2F100A61E3D /* UINavigationBar+BackgroundColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BackgroundColor.h"; sourceTree = "<group>"; };
+		EA5C418C210EF2F100A61E3D /* UINavigationBar+BackgroundColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BackgroundColor.m"; sourceTree = "<group>"; };
+		EA5C418F210EF63000A61E3D /* WalletNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalletNavigationController.h; sourceTree = "<group>"; };
+		EA5C4190210EF63000A61E3D /* WalletNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalletNavigationController.m; sourceTree = "<group>"; };
+		EA5C4193210EFA7200A61E3D /* MyTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTextField.h; sourceTree = "<group>"; };
+		EA5C4194210EFA7200A61E3D /* MyTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTextField.m; sourceTree = "<group>"; };
+		EA5C4198210F0E3B00A61E3D /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		EA5C4199210F0E3B00A61E3D /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		EA5C419A210F0E3B00A61E3D /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		EA5C419B210F0E3B00A61E3D /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		EA5C419C210F0E3B00A61E3D /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		EA5C419D210F0E3B00A61E3D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		EA5C419E210F0E3B00A61E3D /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		EA5C419F210F0E3B00A61E3D /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		EA5C41A0210F0E3B00A61E3D /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		EA5C41A1210F0E3B00A61E3D /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		EA74A48D210EE2B600AE1CFC /* WalletManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletManager.h; sourceTree = "<group>"; };
+		EA74A48E210EE2B600AE1CFC /* WalletManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletManager.m; sourceTree = "<group>"; };
+		EA74A49A210EEEE200AE1CFC /* NotWalletViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotWalletViewController.h; sourceTree = "<group>"; };
+		EA74A49B210EEEE200AE1CFC /* NotWalletViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotWalletViewController.m; sourceTree = "<group>"; };
+		EA74A49C210EEEE200AE1CFC /* NotWalletViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotWalletViewController.xib; sourceTree = "<group>"; };
 		EAAF4074210B060F00065783 /* EthersWallet-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EthersWallet-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAAF4077210B060F00065783 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EAAF4078210B060F00065783 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +184,49 @@
 		EAAF4097210B061100065783 /* EthersWallet-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EthersWallet-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAAF409B210B061100065783 /* EthersWallet_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EthersWallet_iosUITests.m; sourceTree = "<group>"; };
 		EAAF409D210B061100065783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAF40A9210B066500065783 /* ethers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ethers.xcodeproj; path = ethers.objc/ethers.xcodeproj; sourceTree = "<group>"; };
+		EAAF40C3210B3DF800065783 /* NSString+judge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+judge.h"; sourceTree = "<group>"; };
+		EAAF40C4210B3DF800065783 /* NSString+judge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+judge.m"; sourceTree = "<group>"; };
+		EAD5A2BF211937BB00F5D50F /* HasKeyStoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HasKeyStoreViewController.h; sourceTree = "<group>"; };
+		EAD5A2C0211937BB00F5D50F /* HasKeyStoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HasKeyStoreViewController.m; sourceTree = "<group>"; };
+		EAD5A2C1211937BB00F5D50F /* HasKeyStoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HasKeyStoreViewController.xib; sourceTree = "<group>"; };
+		EAD5A2C62119441100F5D50F /* HHShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHShowView.h; sourceTree = "<group>"; };
+		EAD5A2C72119441200F5D50F /* HHShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHShowView.m; sourceTree = "<group>"; };
+		EAD5A2CA2119454F00F5D50F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EAD5A2CC2119454F00F5D50F /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		EAD5A2CD2119454F00F5D50F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		EAD5A2CE2119454F00F5D50F /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		EAD5A2CF2119454F00F5D50F /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		EAD5A2D02119454F00F5D50F /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		EAD5A2D12119454F00F5D50F /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		EAD5A2D22119454F00F5D50F /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		EAD5A2D32119454F00F5D50F /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		EAD5A2D42119454F00F5D50F /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		EAD5A2D52119454F00F5D50F /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		EAD5A2D62119454F00F5D50F /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		EAD5A2D72119454F00F5D50F /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		EAD5A2D82119454F00F5D50F /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		EAD5A2D92119454F00F5D50F /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		EAD5A2DA2119454F00F5D50F /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		EAD5A2DB2119454F00F5D50F /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		EAD5A2DC2119454F00F5D50F /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		EAD5A2DD2119454F00F5D50F /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		EAD5A2DE2119454F00F5D50F /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		EAD5A2DF2119454F00F5D50F /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		EAD5A2E02119454F00F5D50F /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		EAD5A2E12119454F00F5D50F /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		EAD5A2E22119454F00F5D50F /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		EAD5A2E32119454F00F5D50F /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		EAD5A2E42119454F00F5D50F /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		EAD5A2E52119454F00F5D50F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EAD5A2F221194B7D00F5D50F /* SimpleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleManager.h; sourceTree = "<group>"; };
+		EAD5A2F321194B7D00F5D50F /* SimpleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleManager.m; sourceTree = "<group>"; };
+		EAD5A2F621196E0300F5D50F /* Setting ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Setting ViewController.h"; sourceTree = "<group>"; };
+		EAD5A2F721196E0300F5D50F /* Setting ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Setting ViewController.m"; sourceTree = "<group>"; };
+		EAD5A2FA211982E700F5D50F /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		EAD5A2FB211982E700F5D50F /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		EAD5A3022119870600F5D50F /* RestoreWalletViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestoreWalletViewController.h; sourceTree = "<group>"; };
+		EAD5A3032119870600F5D50F /* RestoreWalletViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestoreWalletViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +234,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA2BF3FF2113EEB600AFB2F6 /* Security.framework in Frameworks */,
+				EAAF40B3210B067C00065783 /* ethers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +256,165 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA2BF4032113F89F00AFB2F6 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				EA2BF4042113F89F00AFB2F6 /* Info.plist */,
+				EA2BF4052113F89F00AFB2F6 /* MJExtension.h */,
+				EA2BF4062113F89F00AFB2F6 /* MJExtensionConst.h */,
+				EA2BF4072113F89F00AFB2F6 /* MJExtensionConst.m */,
+				EA2BF4082113F89F00AFB2F6 /* MJFoundation.h */,
+				EA2BF4092113F89F00AFB2F6 /* MJFoundation.m */,
+				EA2BF40A2113F89F00AFB2F6 /* MJProperty.h */,
+				EA2BF40B2113F89F00AFB2F6 /* MJProperty.m */,
+				EA2BF40C2113F89F00AFB2F6 /* MJPropertyKey.h */,
+				EA2BF40D2113F89F00AFB2F6 /* MJPropertyKey.m */,
+				EA2BF40E2113F89F00AFB2F6 /* MJPropertyType.h */,
+				EA2BF40F2113F89F00AFB2F6 /* MJPropertyType.m */,
+				EA2BF4102113F89F00AFB2F6 /* NSObject+MJClass.h */,
+				EA2BF4112113F89F00AFB2F6 /* NSObject+MJClass.m */,
+				EA2BF4122113F89F00AFB2F6 /* NSObject+MJCoding.h */,
+				EA2BF4132113F89F00AFB2F6 /* NSObject+MJCoding.m */,
+				EA2BF4142113F89F00AFB2F6 /* NSObject+MJKeyValue.h */,
+				EA2BF4152113F89F00AFB2F6 /* NSObject+MJKeyValue.m */,
+				EA2BF4162113F89F00AFB2F6 /* NSObject+MJProperty.h */,
+				EA2BF4172113F89F00AFB2F6 /* NSObject+MJProperty.m */,
+				EA2BF4182113F89F00AFB2F6 /* NSString+MJExtension.h */,
+				EA2BF4192113F89F00AFB2F6 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		EA2BF4292113F9AF00AFB2F6 /* WHC_ModelSqliteKit */ = {
+			isa = PBXGroup;
+			children = (
+				EA2BF42A2113F9AF00AFB2F6 /* WHC_ModelSqlite.h */,
+				EA2BF42B2113F9AF00AFB2F6 /* WHC_ModelSqlite.m */,
+			);
+			path = WHC_ModelSqliteKit;
+			sourceTree = "<group>";
+		};
+		EA2BF4372114576B00AFB2F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA2BF4382114578A00AFB2F6 /* HomeCell.h */,
+				EA2BF4392114578A00AFB2F6 /* HomeCell.m */,
+				EA2BF43A2114578A00AFB2F6 /* HomeCell.xib */,
+				EAD5A2FA211982E700F5D50F /* TableViewCell.h */,
+				EAD5A2FB211982E700F5D50F /* TableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA5C418E210EF5FB00A61E3D /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				EA5C418F210EF63000A61E3D /* WalletNavigationController.h */,
+				EA5C4190210EF63000A61E3D /* WalletNavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		EA5C4192210EFA4600A61E3D /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				EAD5A2C62119441100F5D50F /* HHShowView.h */,
+				EAD5A2C72119441200F5D50F /* HHShowView.m */,
+				EA5C4193210EFA7200A61E3D /* MyTextField.h */,
+				EA5C4194210EFA7200A61E3D /* MyTextField.m */,
+				EA2BF4002113EF4900AFB2F6 /* KeychainItemWrapper.h */,
+				EA2BF4012113EF4900AFB2F6 /* KeychainItemWrapper.m */,
+				EAD5A2F221194B7D00F5D50F /* SimpleManager.h */,
+				EAD5A2F321194B7D00F5D50F /* SimpleManager.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		EA5C4196210F0E0800A61E3D /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				EAD5A2C92119454F00F5D50F /* Masonry */,
+				EA2BF4292113F9AF00AFB2F6 /* WHC_ModelSqliteKit */,
+				EA2BF4032113F89F00AFB2F6 /* MJExtension */,
+				EA5C4197210F0E3B00A61E3D /* SVProgressHUD */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		EA5C4197210F0E3B00A61E3D /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EA5C4198210F0E3B00A61E3D /* SVIndefiniteAnimatedView.h */,
+				EA5C4199210F0E3B00A61E3D /* SVIndefiniteAnimatedView.m */,
+				EA5C419A210F0E3B00A61E3D /* SVProgressAnimatedView.h */,
+				EA5C419B210F0E3B00A61E3D /* SVProgressAnimatedView.m */,
+				EA5C419C210F0E3B00A61E3D /* SVProgressHUD-Prefix.pch */,
+				EA5C419D210F0E3B00A61E3D /* SVProgressHUD.bundle */,
+				EA5C419E210F0E3B00A61E3D /* SVProgressHUD.h */,
+				EA5C419F210F0E3B00A61E3D /* SVProgressHUD.m */,
+				EA5C41A0210F0E3B00A61E3D /* SVRadialGradientLayer.h */,
+				EA5C41A1210F0E3B00A61E3D /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		EA74A48B210EE24F00AE1CFC /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				EA2BF4372114576B00AFB2F6 /* View */,
+				EA74A490210EE2BF00AE1CFC /* Controller */,
+				EA74A48C210EE28000AE1CFC /* Model */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		EA74A48C210EE28000AE1CFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA74A48D210EE2B600AE1CFC /* WalletManager.h */,
+				EA74A48E210EE2B600AE1CFC /* WalletManager.m */,
+				EA2BF42D211405DC00AFB2F6 /* AccountModel.h */,
+				EA2BF42E211405DC00AFB2F6 /* AccountModel.m */,
+				EA2BF430211406FB00AFB2F6 /* AddressModel.h */,
+				EA2BF431211406FB00AFB2F6 /* AddressModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA74A490210EE2BF00AE1CFC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EA74A49A210EEEE200AE1CFC /* NotWalletViewController.h */,
+				EA74A49B210EEEE200AE1CFC /* NotWalletViewController.m */,
+				EA74A49C210EEEE200AE1CFC /* NotWalletViewController.xib */,
+				EA5C4186210EF10900A61E3D /* CreateWalletViewController.h */,
+				EA5C4187210EF10900A61E3D /* CreateWalletViewController.m */,
+				EA5C4188210EF10900A61E3D /* CreateWalletViewController.xib */,
+				EA2BF43421142D2800AFB2F6 /* HomeViewController.h */,
+				EA2BF43521142D2800AFB2F6 /* HomeViewController.m */,
+				EA2BF44021145DB700AFB2F6 /* WalletDetailsViewController.h */,
+				EA2BF44121145DB700AFB2F6 /* WalletDetailsViewController.m */,
+				EA2BF44221145DB700AFB2F6 /* WalletDetailsViewController.xib */,
+				EAD5A2BF211937BB00F5D50F /* HasKeyStoreViewController.h */,
+				EAD5A2C0211937BB00F5D50F /* HasKeyStoreViewController.m */,
+				EAD5A2C1211937BB00F5D50F /* HasKeyStoreViewController.xib */,
+				EAD5A2F621196E0300F5D50F /* Setting ViewController.h */,
+				EAD5A2F721196E0300F5D50F /* Setting ViewController.m */,
+				EAD5A3022119870600F5D50F /* RestoreWalletViewController.h */,
+				EAD5A3032119870600F5D50F /* RestoreWalletViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		EAAF406B210B060F00065783 = {
 			isa = PBXGroup;
 			children = (
+				EAAF40A9210B066500065783 /* ethers.xcodeproj */,
 				EAAF4076210B060F00065783 /* EthersWallet-ios */,
 				EAAF408F210B061100065783 /* EthersWallet-iosTests */,
 				EAAF409A210B061100065783 /* EthersWallet-iosUITests */,
 				EAAF4075210B060F00065783 /* Products */,
+				EAAF40B2210B067C00065783 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +431,12 @@
 		EAAF4076210B060F00065783 /* EthersWallet-ios */ = {
 			isa = PBXGroup;
 			children = (
+				EA2BF433211426AB00AFB2F6 /* EthersWallet-ios.entitlements */,
+				EA5C4196210F0E0800A61E3D /* ThirdParty */,
+				EA5C4192210EFA4600A61E3D /* tool */,
+				EA5C418E210EF5FB00A61E3D /* NavigationController */,
+				EA74A48B210EE24F00AE1CFC /* Wallet */,
+				EAAF40C0210B3DC000065783 /* Category */,
 				EAAF4077210B060F00065783 /* AppDelegate.h */,
 				EAAF4078210B060F00065783 /* AppDelegate.m */,
 				EAAF407A210B060F00065783 /* ViewController.h */,
@@ -130,6 +466,76 @@
 				EAAF409D210B061100065783 /* Info.plist */,
 			);
 			path = "EthersWallet-iosUITests";
+			sourceTree = "<group>";
+		};
+		EAAF40AA210B066500065783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAAF40AF210B066500065783 /* ethers.framework */,
+				EAAF40B1210B066500065783 /* ethersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAAF40B2210B067C00065783 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA2BF3FC2113EEB600AFB2F6 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAAF40C0210B3DC000065783 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EAAF40C3210B3DF800065783 /* NSString+judge.h */,
+				EAAF40C4210B3DF800065783 /* NSString+judge.m */,
+				EA5C418B210EF2F100A61E3D /* UINavigationBar+BackgroundColor.h */,
+				EA5C418C210EF2F100A61E3D /* UINavigationBar+BackgroundColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EAD5A2C92119454F00F5D50F /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				EAD5A2CA2119454F00F5D50F /* LICENSE */,
+				EAD5A2CB2119454F00F5D50F /* Masonry */,
+				EAD5A2E52119454F00F5D50F /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		EAD5A2CB2119454F00F5D50F /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				EAD5A2CC2119454F00F5D50F /* MASCompositeConstraint.h */,
+				EAD5A2CD2119454F00F5D50F /* MASCompositeConstraint.m */,
+				EAD5A2CE2119454F00F5D50F /* MASConstraint+Private.h */,
+				EAD5A2CF2119454F00F5D50F /* MASConstraint.h */,
+				EAD5A2D02119454F00F5D50F /* MASConstraint.m */,
+				EAD5A2D12119454F00F5D50F /* MASConstraintMaker.h */,
+				EAD5A2D22119454F00F5D50F /* MASConstraintMaker.m */,
+				EAD5A2D32119454F00F5D50F /* MASLayoutConstraint.h */,
+				EAD5A2D42119454F00F5D50F /* MASLayoutConstraint.m */,
+				EAD5A2D52119454F00F5D50F /* Masonry.h */,
+				EAD5A2D62119454F00F5D50F /* MASUtilities.h */,
+				EAD5A2D72119454F00F5D50F /* MASViewAttribute.h */,
+				EAD5A2D82119454F00F5D50F /* MASViewAttribute.m */,
+				EAD5A2D92119454F00F5D50F /* MASViewConstraint.h */,
+				EAD5A2DA2119454F00F5D50F /* MASViewConstraint.m */,
+				EAD5A2DB2119454F00F5D50F /* NSArray+MASAdditions.h */,
+				EAD5A2DC2119454F00F5D50F /* NSArray+MASAdditions.m */,
+				EAD5A2DD2119454F00F5D50F /* NSArray+MASShorthandAdditions.h */,
+				EAD5A2DE2119454F00F5D50F /* NSLayoutConstraint+MASDebugAdditions.h */,
+				EAD5A2DF2119454F00F5D50F /* NSLayoutConstraint+MASDebugAdditions.m */,
+				EAD5A2E02119454F00F5D50F /* View+MASAdditions.h */,
+				EAD5A2E12119454F00F5D50F /* View+MASAdditions.m */,
+				EAD5A2E22119454F00F5D50F /* View+MASShorthandAdditions.h */,
+				EAD5A2E32119454F00F5D50F /* ViewController+MASAdditions.h */,
+				EAD5A2E42119454F00F5D50F /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +605,11 @@
 				TargetAttributes = {
 					EAAF4073210B060F00065783 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					EAAF408B210B061100065783 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -221,6 +632,12 @@
 			mainGroup = EAAF406B210B060F00065783;
 			productRefGroup = EAAF4075210B060F00065783 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EAAF40AA210B066500065783 /* Products */;
+					ProjectRef = EAAF40A9210B066500065783 /* ethers.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EAAF4073210B060F00065783 /* EthersWallet-ios */,
@@ -230,14 +647,40 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		EAAF40AF210B066500065783 /* ethers.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ethers.framework;
+			remoteRef = EAAF40AE210B066500065783 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EAAF40B1210B066500065783 /* ethersTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ethersTests.xctest;
+			remoteRef = EAAF40B0210B066500065783 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		EAAF4072210B060F00065783 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EAAF4084210B061100065783 /* LaunchScreen.storyboard in Resources */,
+				EA5C41A4210F0E3B00A61E3D /* SVProgressHUD.bundle in Resources */,
+				EA5C418A210EF10900A61E3D /* CreateWalletViewController.xib in Resources */,
+				EA2BF44421145DB700AFB2F6 /* WalletDetailsViewController.xib in Resources */,
+				EA74A49E210EEEE200AE1CFC /* NotWalletViewController.xib in Resources */,
+				EAD5A2E62119454F00F5D50F /* LICENSE in Resources */,
+				EAD5A2F12119454F00F5D50F /* README.md in Resources */,
+				EAD5A2C3211937BB00F5D50F /* HasKeyStoreViewController.xib in Resources */,
 				EAAF4081210B061100065783 /* Assets.xcassets in Resources */,
 				EAAF407F210B060F00065783 /* Main.storyboard in Resources */,
+				EA2BF43C2114578A00AFB2F6 /* HomeCell.xib in Resources */,
+				EA2BF41A2113F89F00AFB2F6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +705,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD5A2EC2119454F00F5D50F /* MASViewConstraint.m in Sources */,
+				EAD5A2F02119454F00F5D50F /* ViewController+MASAdditions.m in Sources */,
+				EA2BF42C2113F9AF00AFB2F6 /* WHC_ModelSqlite.m in Sources */,
+				EAD5A2FC211982E700F5D50F /* TableViewCell.m in Sources */,
+				EA2BF44321145DB700AFB2F6 /* WalletDetailsViewController.m in Sources */,
+				EAAF40C5210B3DF800065783 /* NSString+judge.m in Sources */,
+				EA2BF4222113F89F00AFB2F6 /* NSObject+MJKeyValue.m in Sources */,
+				EA2BF42F211405DC00AFB2F6 /* AccountModel.m in Sources */,
+				EAD5A2E92119454F00F5D50F /* MASConstraintMaker.m in Sources */,
+				EA5C4191210EF63000A61E3D /* WalletNavigationController.m in Sources */,
 				EAAF407C210B060F00065783 /* ViewController.m in Sources */,
+				EAD5A2C2211937BB00F5D50F /* HasKeyStoreViewController.m in Sources */,
+				EAD5A2EB2119454F00F5D50F /* MASViewAttribute.m in Sources */,
+				EA2BF43621142D2800AFB2F6 /* HomeViewController.m in Sources */,
+				EAD5A2ED2119454F00F5D50F /* NSArray+MASAdditions.m in Sources */,
 				EAAF4087210B061100065783 /* main.m in Sources */,
+				EAD5A3042119870600F5D50F /* RestoreWalletViewController.m in Sources */,
+				EAD5A2F421194B7D00F5D50F /* SimpleManager.m in Sources */,
+				EAD5A2E72119454F00F5D50F /* MASCompositeConstraint.m in Sources */,
+				EA5C418D210EF2F100A61E3D /* UINavigationBar+BackgroundColor.m in Sources */,
+				EA2BF41F2113F89F00AFB2F6 /* MJPropertyType.m in Sources */,
+				EA2BF4232113F89F00AFB2F6 /* NSObject+MJProperty.m in Sources */,
+				EAD5A2F821196E0300F5D50F /* Setting ViewController.m in Sources */,
+				EA2BF4212113F89F00AFB2F6 /* NSObject+MJCoding.m in Sources */,
+				EA2BF43B2114578A00AFB2F6 /* HomeCell.m in Sources */,
+				EAD5A2EF2119454F00F5D50F /* View+MASAdditions.m in Sources */,
+				EAD5A2C82119441200F5D50F /* HHShowView.m in Sources */,
+				EA5C4195210EFA7200A61E3D /* MyTextField.m in Sources */,
+				EA74A48F210EE2B600AE1CFC /* WalletManager.m in Sources */,
+				EAD5A2E82119454F00F5D50F /* MASConstraint.m in Sources */,
+				EA5C41A6210F0E3B00A61E3D /* SVRadialGradientLayer.m in Sources */,
+				EA2BF41E2113F89F00AFB2F6 /* MJPropertyKey.m in Sources */,
+				EA2BF41B2113F89F00AFB2F6 /* MJExtensionConst.m in Sources */,
+				EA2BF4022113EF4900AFB2F6 /* KeychainItemWrapper.m in Sources */,
+				EA2BF4202113F89F00AFB2F6 /* NSObject+MJClass.m in Sources */,
 				EAAF4079210B060F00065783 /* AppDelegate.m in Sources */,
+				EA5C4189210EF10900A61E3D /* CreateWalletViewController.m in Sources */,
+				EA2BF432211406FB00AFB2F6 /* AddressModel.m in Sources */,
+				EA5C41A5210F0E3B00A61E3D /* SVProgressHUD.m in Sources */,
+				EA2BF41D2113F89F00AFB2F6 /* MJProperty.m in Sources */,
+				EAD5A2EA2119454F00F5D50F /* MASLayoutConstraint.m in Sources */,
+				EAD5A2EE2119454F00F5D50F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				EA5C41A2210F0E3B00A61E3D /* SVIndefiniteAnimatedView.m in Sources */,
+				EA74A49D210EEEE200AE1CFC /* NotWalletViewController.m in Sources */,
+				EA5C41A3210F0E3B00A61E3D /* SVProgressAnimatedView.m in Sources */,
+				EA2BF4242113F89F00AFB2F6 /* NSString+MJExtension.m in Sources */,
+				EA2BF41C2113F89F00AFB2F6 /* MJFoundation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,13 +920,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "EthersWallet-ios/EthersWallet-ios.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GW64V7XCK;
 				INFOPLIST_FILE = "EthersWallet-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com..EthersWallet-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EthersWallet-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,13 +938,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "EthersWallet-ios/EthersWallet-ios.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GW64V7XCK;
 				INFOPLIST_FILE = "EthersWallet-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com..EthersWallet-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EthersWallet-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
