@@ -5,4 +5,4 @@
 
 https://github.com/ethers-io/ethers.objc 
 
-注意:交易功能于下一次更新.
+等有时间在更新一下交易功能.
